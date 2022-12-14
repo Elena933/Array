@@ -1,0 +1,9 @@
+// Sum Numbers
+function sum (numbers) {
+    "use strict";
+ let res = 0;
+  numbers.map(el => {
+    res+= el
+  })
+  return res
+};
